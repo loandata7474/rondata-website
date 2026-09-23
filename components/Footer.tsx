@@ -5,7 +5,7 @@ import TelegramButton from "./TelegramButton";
 const SITEMAP = [
   { href: "/services", label: "서비스" },
   { href: "/google-demand-gen", label: "Google Demand Gen" },
-  { href: "/lead-generation", label: "리드 제너레이션 프로세스" },
+  { href: "/lead-generation", label: "금융전문 광고대행사 프로세스" },
   { href: "/company", label: "회사소개" },
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "문의" },
@@ -23,7 +23,7 @@ export default function Footer() {
             </span>
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted">
-            대출·금융 분야 디지털 광고와 리드 제너레이션을 실행하는
+            대출·금융 분야 광고와 리드 제너레이션을 실행하는
             B2B 마케팅 회사입니다.
           </p>
           <div className="mt-5">
@@ -54,9 +54,11 @@ export default function Footer() {
             회사 정보
           </p>
           <ul className="mt-4 space-y-2 text-sm text-muted">
-            <li>사업자등록번호: 확정 후 표기 예정</li>
-            <li>주소: 확정 후 표기 예정</li>
-            <li>이메일: 확정 후 표기 예정</li>
+            <li>사업자등록번호: 493-05-31524</li>
+<li>
+  주소: 대구광역시 달서구 두류공원로 242,
+  7층 701-138호(두류동)
+</li>
             <li>
               <Link href="/privacy" className="underline underline-offset-4 hover:text-ink">
                 개인정보처리방침
